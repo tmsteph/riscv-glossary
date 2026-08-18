@@ -60,3 +60,4 @@ Copyright 2024 by RISC-V International.
 include::glossary.adoc[]
 include::acronyms.adoc[]
 include::extension-naming.adoc[]
+include::extension-reference.adoc[]

@@ -83,3 +83,10 @@ clean:
 	@echo "Cleaning up generated files..."
 	rm -rf $(BUILD_DIR)
 	@echo "Cleanup completed."
+
+# Regenerate the extension-name reference from a local RISC-V Unified Database checkout.
+# Usage: make update-extension-reference UDB_DIR=/path/to/riscv-unified-db
+.PHONY: update-extension-reference
+update-extension-reference:
+	@test -n "$(UDB_DIR)" || (echo "UDB_DIR must point to a riscv-unified-db checkout" >&2; exit 2)
+	python3 scripts/generate-extension-reference.py "$(UDB_DIR)"
