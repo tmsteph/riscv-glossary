@@ -155,6 +155,7 @@ The extension names and long forms below are generated from extension metadata i
 | `Zve64d` | Vector Extension for Minimal Double-Precision Embedded Floating-Point
 | `Zve64f` | Vector Extension for Minimal Single-Precision Embedded Floating-Point
 | `Zve64x` | Vector Extension for Minimal Vector Register Length of 64 Bits
+| `Zvfbfa` | Vector Extension for Additional BF16 Computation
 | `Zvfbfmin` | Vector BF16 Converts
 | `Zvfbfwma` | Vector BF16 widening mul-add
 | `Zvfh` | Vector Extension for Half-Precision Floating-Point
