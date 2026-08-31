@@ -160,6 +160,8 @@ The extension names and long forms below are generated from extension metadata i
 | `Zvfbfwma` | Vector BF16 widening mul-add
 | `Zvfh` | Vector Extension for Half-Precision Floating-Point
 | `Zvfhmin` | Vector Extension for Minimal Half-Precision Floating-Point
+| `Zvfofp4min` | Vector OFP4 Conversion Extension
+| `Zvfofp8min` | Vector OFP8 Conversion Extension
 | `Zvkb` | Vector Cryptography Bit-manipulation
 | `Zvkg` | Vector GCM/GMAC
 | `Zvkn` | NIST Algorithm Suite
